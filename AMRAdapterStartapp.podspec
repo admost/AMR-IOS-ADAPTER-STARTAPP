@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterStartapp'
-  s.version          = '4.6.6.0'
+  s.version          = '4.6.7.1'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited. 
@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
   s.platform 			= :ios
   s.ios.deployment_target = '9.0'
   s.dependency 'AMRSDK', '~> 1.4.75'
-  s.dependency 'StartAppSDK', '4.6.6'
+  s.dependency 'StartAppSDK', '4.6.7'
   s.vendored_libraries = 'AMRAdapterStartapp/Libs/libAMRAdapterStartapp.a'
 end
