@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterStartapp'
-  s.version          = '4.8.0.0'
+  s.version          = '4.9.0.0'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited. 
@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   s.documentation_url = 'https://admost.github.io/amrios/'
   s.platform 			= :ios
   s.ios.deployment_target = '9.0'
+  s.swift_versions = ['5']
   s.pod_target_xcconfig = { 
     'OTHER_LDFLAGS' => '-ObjC -lc++',
     "VALID_ARCHS": "arm64 armv7 x86_64",
@@ -24,6 +25,6 @@ Pod::Spec.new do |s|
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
   s.dependency 'AMRSDK', '~> 1.5.6'
-  s.dependency 'StartAppSDK', '4.8.0'
+  s.dependency 'StartAppSDK', '4.9.0'
   s.vendored_frameworks = 'AMRAdapterStartapp/Libs/AMRAdapterStartapp.xcframework'
 end
