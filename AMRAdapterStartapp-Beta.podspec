@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterStartapp-Beta'
-  s.version          = '4.10.2.0'
+  s.version          = '4.10.3.0'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited. 
@@ -25,6 +25,6 @@ Pod::Spec.new do |s|
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
   s.dependency 'AMRSDK-Beta', '~> 1.5.40'
-  s.dependency 'StartAppSDK', '4.10.2'
+  s.dependency 'StartAppSDK', '4.10.3'
   s.vendored_frameworks = 'AMRAdapterStartapp/Libs/AMRAdapterStartapp.xcframework'
 end
