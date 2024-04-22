@@ -3,6 +3,10 @@
 Changelog for AMRAdapterStartapp. 
 StartAppSDK [changelog](https://github.com/StartApp-SDK/StartAppSDK/tags)
 
+## [4.10.3.0] - 2024-04-22
+### Updated
+- Offical release for StartAppSDK 4.10.3
+
 ## [4.10.2.0] - 2023-11-29
 ### Updated
 - Offical release for StartAppSDK 4.10.2
